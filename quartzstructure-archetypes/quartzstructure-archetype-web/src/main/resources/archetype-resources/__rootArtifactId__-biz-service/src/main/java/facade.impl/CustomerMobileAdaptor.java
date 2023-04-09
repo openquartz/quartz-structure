@@ -1,14 +1,18 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.mobile;
+package ${package}.facade.impl;
 
 /**
- * Customer Mobile Adaptor
  *
  *
  * @author svnee
  * @date 2020-10-27 8:04 PM
  */
-public class CustomerMobileAdaptor {
+public class HelloFacadeImpl implements HelloFacade {
+
+    @Override
+    public void sayHello(){
+
+    }
 }

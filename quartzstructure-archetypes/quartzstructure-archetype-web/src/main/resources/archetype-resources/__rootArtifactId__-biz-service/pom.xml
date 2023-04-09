@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-biz-service</artifactId>
+            <artifactId>${rootArtifactId}-common-facade</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
