@@ -19,7 +19,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * This is for integration test.
  *
- * Created by fulan.zjf on 2017/11/29.
+ * Created by svnee on 2017/11/29.
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
