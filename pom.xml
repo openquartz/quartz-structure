@@ -25,14 +25,7 @@
   
   
   <modules>
-                
-    
-    
     <module>quartzstructure-archetypes</module>
-          
-    
-    <module>quartzstructure-demo-web</module>
-      
   </modules>
         
   
