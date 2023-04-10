@@ -3,11 +3,9 @@
 #set( $symbol_escape = '\' )
 package ${package}.api;
 
-import ${package}.dto.CustomerAddCmd;
-import ${package}.dto.CustomerListByNameQry;
-import ${package}.dto.data.CustomerDTO;
+import ${package}.dto.HelloDTO;
 
 public interface HelloFacade {
 
-    void sayHello();
+    void sayHello(HelloDTO helloDTO);
 }

@@ -4,12 +4,9 @@
 package ${package}.application;
 
 /**
- * Customer Wap Adaptor
- *
- * WAP : Wireless Application Protocol)
+ * HelloApplicationImpl
  *
  * @author svnee
- * @date 2020-10-27 8:03 PM
  */
-public class HelloApplication {
+public class HelloApplicationImpl implements HelloApplication {
 }
