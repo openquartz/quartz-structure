@@ -3,7 +3,9 @@
 #set( $symbol_escape = '\' )
 package ${package}.facade.impl.translator;
 
-import ${package}.api.dto.CustomerDTO;
+import ${package}.common.facade.dto.CustomerDTO;
+import ${package}.application.customer.bo.CustomerBO;
+import org.springframework.stereotype.Component;
 
 @Component
 public class CustomerTranslator {
@@ -15,5 +17,6 @@ public class CustomerTranslator {
         customerBO.setCustomerName(customerDTO.getCustomerName());
         customerBO.setCustomerType(customerDTO.getCustomerType());
         customerBO.setSource(customerDTO.getSource());
+        return customerBO;
     }
 }

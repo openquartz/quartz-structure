@@ -2,6 +2,7 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
 package ${package}.application.customer.impl;
+import org.springframework.stereotype.Component;
 
 /**
  * CustomerApplicationImpl
