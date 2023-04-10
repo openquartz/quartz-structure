@@ -14,13 +14,15 @@
     <name>${artifactId}</name>
 
     <dependencies>
-
         <!--  core-model-->
         <dependency>
             <groupId>${groupId}</groupId>
             <artifactId>${rootArtifactId}-core-model</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

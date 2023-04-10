@@ -1,9 +1,9 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.api;
+package ${package}.facade;
 
-import ${package}.dto.CustomerDTO;
+import ${package}.facade.dto.CustomerDTO;
 
 public interface CustomerFacade {
 
