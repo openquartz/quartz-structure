@@ -1,5 +1,3 @@
-package archetype
-
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
@@ -10,7 +8,7 @@ import lombok.Data;
 import javax.validation.constraints.NotEmpty;
 
 @Data
-public class CustomerDTO{
+public class CustomerDTO {
     private String customerId;
     private String memberId;
     private String customerName;

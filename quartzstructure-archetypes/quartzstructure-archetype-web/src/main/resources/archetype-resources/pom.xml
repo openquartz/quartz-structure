@@ -42,15 +42,44 @@
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>
-                <artifactId>${rootArtifactId}-core</artifactId>
+                <artifactId>${rootArtifactId}-core-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>
-                <artifactId>${rootArtifactId}-common</artifactId>
+                <artifactId>${rootArtifactId}-core-service</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>${groupId}</groupId>
+                <artifactId>${rootArtifactId}-common-util</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${groupId}</groupId>
+                <artifactId>${rootArtifactId}-common-dal</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${groupId}</groupId>
+                <artifactId>${rootArtifactId}-common-facade</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${groupId}</groupId>
+                <artifactId>${rootArtifactId}-common-integration</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${groupId}</groupId>
+                <artifactId>${rootArtifactId}-common-repository</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${groupId}</groupId>
+                <artifactId>${rootArtifactId}-common-repository-impl</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <!--Project modules End-->
 
             <!--Spring Boot-->

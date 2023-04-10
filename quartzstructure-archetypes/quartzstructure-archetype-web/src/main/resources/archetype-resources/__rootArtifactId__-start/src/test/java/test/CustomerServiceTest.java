@@ -58,7 +58,7 @@ public class CustomerServiceTest {
         customerAddCmd.setCustomerDTO(customerDTO);
 
         //2.execute
-        Response response = customerService.addCustomer(customerAddCmd);
+        customerService.addCustomer(customerAddCmd);
 
         //3.assert error
         Assert.assertEquals(ErrorCode.B_CUSTOMER_companyNameConflict.getErrCode(), response.getErrCode());

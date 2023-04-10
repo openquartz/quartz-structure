@@ -16,22 +16,15 @@ import org.springframework.web.bind.annotation.*;
 public class CustomerController {
 
     @Autowired
-    private CustomerServiceI customerService;
+    private CustomerApplication customerApplication;
 
     @GetMapping(value = "/helloworld")
     public String helloWorld(){
-        return "Hello, welcome to COLA world!";
-    }
-
-    @GetMapping(value = "/customer")
-    public MultiResponse<CustomerDTO> listCustomerByName(@RequestParam(required = false) String name){
-        CustomerListByNameQry customerListByNameQry = new CustomerListByNameQry();
-        customerListByNameQry.setName(name);
-        return customerService.listByName(customerListByNameQry);
+        return "Hello, welcome to quartz-strcture world!";
     }
 
     @PostMapping(value = "/customer")
-    public Response addCustomer(@RequestBody CustomerAddCmd customerAddCmd){
-        return customerService.addCustomer(customerAddCmd);
+    public void addCustomer(@RequestBody CustomerDTO customerDTO){
+        customerApplication.addCustomer(customerDTO);
     }
 }
