@@ -6,4 +6,4 @@
  * 
  * @author svnee
  */
-package ${package}.domain;
+package ${package}.core.service;

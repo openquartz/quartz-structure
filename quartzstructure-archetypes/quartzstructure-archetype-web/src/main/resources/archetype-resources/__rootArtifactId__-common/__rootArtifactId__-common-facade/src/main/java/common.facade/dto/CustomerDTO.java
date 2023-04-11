@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.facade.dto;
+package ${package}.common.facade.dto;
 
 import lombok.Data;
 

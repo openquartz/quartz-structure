@@ -4,6 +4,7 @@
 package ${package}.facade.impl;
 
 import ${package}.facade.impl.translator.CustomerTranslator;
+import ${package}.common.facade.dto.CustomerDTO;
 import org.springframework.stereotype.Service;
 
 /**
