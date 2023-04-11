@@ -38,5 +38,7 @@ mvn archetype:generate -B -DgroupId=com.openquartz -DartifactId=quartzstructure-
     - common-integration : 集成服务;外部协议接口调用、MQ协议层输出封装。主要职责：领域防腐 
 - start : 服务启动
 
+
 运行完成后生成架构依赖
+
 ![石英架构](./doc/image/QuartzStructure.png)
