@@ -19,7 +19,7 @@ mvn install
 执行命令
 具体参数可以执行替换
 ```shell
-mvn archetype:generate -B -DgroupId=com.openquartz -DartifactId=quartzstructure-demo-web -Dversion=1.0.0-SNAPSHOT -Dpackage=com.openquartz  -DarchetypeArtifactId=quartzstructure-framework-archetype-web -DarchetypeGroupId=com.openquartz.quartzstructure -DarchetypeVersion=1.0.0
+mvn archetype:generate -B -DgroupId=com.openquartz -DartifactId=quartzstructure-demo -Dversion=1.0.0-SNAPSHOT -Dpackage=com.openquartz  -DarchetypeArtifactId=quartzstructure-framework-archetype-web -DarchetypeGroupId=com.openquartz.quartzstructure -DarchetypeVersion=1.0.0
 ```
 
 生成的项目架构有：
@@ -37,3 +37,6 @@ mvn archetype:generate -B -DgroupId=com.openquartz -DartifactId=quartzstructure-
     - common-util : 基础工具设施
     - common-integration : 集成服务;外部协议接口调用、MQ协议层输出封装。主要职责：领域防腐 
 - start : 服务启动
+
+运行完成后生成架构依赖
+![石英架构](./doc/image/QuartzStructure.png)
