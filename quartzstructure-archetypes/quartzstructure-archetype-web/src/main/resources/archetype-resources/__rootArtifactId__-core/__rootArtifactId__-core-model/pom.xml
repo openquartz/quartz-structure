@@ -18,6 +18,7 @@
             <groupId>${groupId}</groupId>
             <artifactId>${rootArtifactId}-common-util</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

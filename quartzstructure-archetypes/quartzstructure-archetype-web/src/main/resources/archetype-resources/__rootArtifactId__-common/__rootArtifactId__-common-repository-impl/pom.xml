@@ -13,14 +13,13 @@
     <name>${parentArtifactId}-common-repository-impl</name>
 
     <dependencies>
-
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-repository</artifactId>
+            <artifactId>${rootArtifactId}-common-repository</artifactId>
         </dependency>
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-dal</artifactId>
+            <artifactId>${rootArtifactId}-common-dal</artifactId>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
