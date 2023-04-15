@@ -4,7 +4,7 @@
 
 ### 介绍
 
-一款由传统MVC架构向DDD模型过渡的中间架构。 更加符合实际开发场景。
+一款由传统MVC架构向DDD模型过渡的分层架构,实现业务层、数据存储层、外部交互层的隔离。
 
 ### 使用
 
@@ -31,9 +31,9 @@ mvn archetype:generate -B -DgroupId=com.openquartz -DartifactId=quartzstructure-
     - core-service : 领域服务
 -  common : 基础层
     - common-facade :  RPC对外的门面
-    - common-dal : 数据存储相关
+    - common-dal : 数据存储实现相关(DB)
     - common-repository : 领域仓储API
-    - common-repository-impl : 领域仓库实现
+    - common-repository-impl : 领域仓储实现
     - common-util : 基础工具设施
     - common-integration : 集成服务;外部协议接口调用、MQ协议层输出封装。主要职责：领域防腐 
 - start : 服务启动
